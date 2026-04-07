@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Sensor Door</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🚪 Automatic Sensor Door System</h1>
+
+    <!-- Sensor Indicator -->
+    <div class="sensor">
+        <div id="sensor-light"></div>
+        <p id="status">Status: Waiting for Detection...</p>
+    </div>
+
+    <!-- Sensor Area (Hover Zone) -->
+    <div class="sensor-zone" id="sensorZone">
+        <p>👣 Walk Here (Hover)</p>
+
+        <!-- Door -->
+        <div class="door-container" id="doorArea">
+            <div class="door left-door"></div>
+            <div class="door right-door"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

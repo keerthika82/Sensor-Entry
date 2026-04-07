@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* Sensor Indicator */
+.sensor {
+    margin: 20px;
+}
+
+#sensor-light {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* Sensor Zone */
+.sensor-zone {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px dashed #aaa;
+    background: #ffffff;
+    position: relative;
+}
+
+/* Door Container */
+.door-container {
+    width: 300px;
+    height: 180px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #333;
+    background: #ccc;
+}
+
+/* Doors */
+.door {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    position: absolute;
+    top: 0;
+    transition: transform 1s ease;
+}
+
+/* Left Door */
+.left-door {
+    left: 0;
+}
+
+/* Right Door */
+.right-door {
+    right: 0;
+}
+
+/* Open Animation */
+.open .left-door {
+    transform: translateX(-100%);
+}
+
+.open .right-door {
+    transform: translateX(100%);
+}
