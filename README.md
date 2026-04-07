@@ -73,4 +73,4 @@ This system is commonly used in:
 
 A.Keerthika
 
-✨ This project is created for educational and demonstration purposes.
+This project is created for educational and demonstration purposes.
