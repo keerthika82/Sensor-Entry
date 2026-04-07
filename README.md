@@ -64,15 +64,13 @@ This system is commonly used in:
 
 * Future Enhancements
 
-* 🔊 Add door opening/closing sound effects
-* 🪟 Improve UI with glass door design
-* 📡 Integrate real sensors using Arduino
-* 🤖 Add AI-based human detection simulation
+* Add door opening/closing sound effects
+* Improve UI with glass door design
+* Integrate real sensors using Arduino
+* Add AI-based human detection simulation
 
 * Author
 
-Your Name
-
----
+A.Keerthika
 
 ✨ This project is created for educational and demonstration purposes.
